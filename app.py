@@ -24,6 +24,10 @@ def create_app(test_config=None):
                              'GET, POST, PATCH, DELETE, OPTIONS')
         return response
 
+    @app.route('/')
+    def index():
+        return "Welcome!!", 200
+
     @app.route('/actors')
     @requires_auth("get:actors")
     def get_actors(payload):
