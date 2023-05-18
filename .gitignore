@@ -1,2 +1,6 @@
 .idea
 __pycache__
+.env
+setup.sh
+FSND-Capstone Heroku.postman_collection.json
+env
