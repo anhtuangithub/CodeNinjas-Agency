@@ -11,8 +11,8 @@ def create_app(test_config=None):
 
     # Uncomment the following line on the initial run to setup
     # the required tables in the database
-    with app.app_context():
-        db_drop_and_create_all()
+    # with app.app_context():
+    #     db_drop_and_create_all()
 
     CORS(app, resources={r"/*": {"origins": "*"}})
 

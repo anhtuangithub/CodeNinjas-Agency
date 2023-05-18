@@ -137,14 +137,14 @@ The API will return the following errors based on how the request fails:
    - is a public endpoint, requires no authentication
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com`
+   - `https://render-deployment-example-nuov.onrender.com/`
 
 <details>
 <summary>Sample Response</summary>
 
 ```
 {
-    "health": "Running!!"
+    "/": "Running!!"
 }
 ```
 
@@ -156,7 +156,7 @@ The API will return the following errors based on how the request fails:
    - requires `get:actors` permission
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors`
+   - `https://render-deployment-example-nuov.onrender.com/actors`
 
 <details>
 <summary>Sample Response</summary>
@@ -193,7 +193,7 @@ The API will return the following errors based on how the request fails:
    - requires `get:actor-by-id` permission
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors/1`
+   - `https://render-deployment-example-nuov.onrender.com/actors/1`
 
 <details>
 <summary>Sample Response</summary>
@@ -225,7 +225,7 @@ The API will return the following errors based on how the request fails:
    - date_of_birth: date, required
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors`
+   - `https://render-deployment-example-nuov.onrender.com/actors`
    - Request Body
      ```
         {
@@ -258,7 +258,7 @@ The API will return the following errors based on how the request fails:
    - date_of_birth: date, optional
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors/5`
+   - `https://render-deployment-example-nuov.onrender.com/actors/5`
    - Request Body
      ```
        {
@@ -289,7 +289,7 @@ The API will return the following errors based on how the request fails:
    - will also delete the mapping to the movie but will not delete the movie from the database
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors/5`
+   - `https://render-deployment-example-nuov.onrender.com/actors/5`
 
 <details>
 <summary>Sample Response</summary>
@@ -309,7 +309,7 @@ The API will return the following errors based on how the request fails:
    - requires `get:movies` permission
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/movies`
+   - `https://render-deployment-example-nuov.onrender.com/movies`
 
 <details>
 <summary>Sample Response</summary>
@@ -340,7 +340,7 @@ The API will return the following errors based on how the request fails:
    - requires `get:movie-by-id` permission
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/movies/1`
+   - `https://render-deployment-example-nuov.onrender.com/movies/1`
 
 <details>
 <summary>Sample Response</summary>
@@ -380,7 +380,7 @@ The API will return the following errors based on how the request fails:
    - If not, the request will fail with code 422.
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/actors`
+   - `https://render-deployment-example-nuov.onrender.com/actors`
    - Request Body
      ```
         {
@@ -421,7 +421,7 @@ The API will return the following errors based on how the request fails:
    - So, if you want to append new actors to a movie, pass the existing actors also in the request.
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/movies/3`
+   - `https://render-deployment-example-nuov.onrender.com/movies/3`
    - Request Body
      ```
        {
@@ -453,7 +453,7 @@ The API will return the following errors based on how the request fails:
    - will not affect the actors present in the database
  
  - Sample Request
-   - `https://ry-fsnd-capstone.herokuapp.com/movies/3`
+   - `https://render-deployment-example-nuov.onrender.com/movies/3`
 
 <details>
 <summary>Sample Response</summary>
